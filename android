@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/car">
+
+
+        </ImageView>
+          <View
+              android:layout_width="wrap_content"
+              android:layout_height="8dp"
+              android:id="@+id/view2">
+
+          </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Selamat Datang"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_gravity="bottom|center">
+        
+        
+    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#000000"
+            android:layout_gravity="bottom|center"
+            android:textSize="18dp"
+            android:text="Username">
+
+        </TextView>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_username"
+            android:layout_gravity="bottom|center"
+            android:textColor="#000000">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_gravity="center"
+            android:text="Password"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_password"
+            android:layout_gravity="center">
+
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:text="LOGIN">
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:layout_gravity="center"
+            android:text="Register">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
